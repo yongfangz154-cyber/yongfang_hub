@@ -1,0 +1,28 @@
+*.pyc
+.vscode
+output
+data
+build
+diff_rasterization/diff_rast.egg-info
+diff_rasterization/dist
+tensorboard_3d
+screenshots
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# datasets, checkpoints, and result bundles
+*.pth
+*.ckpt
+*.pt
+*.ply
+*.zip
+
+# local third-party checkout and install leftovers
+nvdiffrast/
+*.egg-info/
+__pycache__/
